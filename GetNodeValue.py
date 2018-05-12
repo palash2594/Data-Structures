@@ -17,3 +17,20 @@ def GetNode(head, position):
         head = head.next
 
     return head.data
+
+"""
+def GetNode(head, position):
+    head1 = head
+    head2 = head
+    count = 0
+
+    while count < position:
+        head1 = head1.next
+        count += 1
+
+    while head1.next is not None:
+        head1 = head1.next
+        head2 = head2.next
+
+    return head2.data
+"""    
