@@ -38,7 +38,6 @@ def SortedInsert(head, data):
         head.prev = newNode
         return start
 
-print('Hi')
 node = Node()
 newHead = SortedInsert(node, 2)
 display(newHead)
