@@ -6,6 +6,7 @@ class Node(object):
         self.data = data
         self.next = next_node
 
+"""
 def GetNode(head, position):
     count = 0
     current = head
@@ -17,8 +18,8 @@ def GetNode(head, position):
         head = head.next
 
     return head.data
-
 """
+
 def GetNode(head, position):
     head1 = head
     head2 = head
@@ -33,4 +34,3 @@ def GetNode(head, position):
         head2 = head2.next
 
     return head2.data
-"""    
