@@ -1,9 +1,10 @@
+# https://www.hackerrank.com/challenges/merge-two-sorted-linked-lists/problem
 
 class Node(object):
 
     def __init__(self, data=None, next_node=None):
-       self.data = data
-       self.next = next_node
+        self.data = data
+        self.next = next_node
 
 
 def MergeLists(headA, headB):
@@ -12,16 +13,13 @@ def MergeLists(headA, headB):
         return headB
     if headB is None:
         return headA
-
     pointer = None
-
     if headA.data < headB.data and pointer is None:
         pointer = headA
         headA = headA.next
     elif headA.data > headB.data and pointer is None:
         pointer = headB
         headB = headB.next
-
     finalHead = pointer
     while headA is not None and headB is not None:
 
