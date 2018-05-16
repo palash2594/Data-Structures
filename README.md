@@ -1,1 +1,1 @@
-# Hacker Rank problems on Linked List
+# Hacker Rank problems on Data Structures
